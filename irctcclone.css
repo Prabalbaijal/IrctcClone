@@ -1,0 +1,285 @@
+header{
+    position: sticky;
+    top:0px;
+    z-index: 10;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    /* border:2px solid green;             */
+    /* width:98vw; */
+    padding: 10px;
+    background-color: white;
+}
+.form{
+    background-color: white;
+    height:75vh;
+    width:44.5vw;
+    /* border:2px solid green; */
+    position:relative;
+    top:0.5vh;
+    display: flex;
+    margin-left: 5vw;
+    flex-wrap: wrap;
+    position: relative;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    /* border: 2px solid; */
+}
+.navul{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    flex-wrap: wrap;
+    /* border:2px solid; */
+    width:70vw;
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.listcontainer{
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* left:250px; */
+    /* border:2px solid; */
+    width:68%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7;
+}
+.navbut{
+    background-color:#213d77;
+    color:white;
+    font-weight: bold;
+    border-style:none;
+    outline: none;
+    height:30px;
+}
+.form1{
+    height:82.8vh;
+    width:98.5vw;
+    /* border: 2px solid; */
+    /* justify-content: space-around; */
+    padding:45px 0px 0px 0px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 99vw 85vh;
+    display:flex;
+}
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height:1000px;
+    /* padding:4px; */
+    position: relative;
+    background-color: #F7F7F7;
+}
+.tagline{
+    color:#213d77 ;
+    padding-left: 14vw;
+    width:30vw;
+}
+.inputleft{
+    width:22vw;
+    height:4.5vh;
+}
+.inputright{
+    width:15vw;
+    height:4.5vh;
+}
+.formul{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    flex-wrap: wrap;
+    /* border:2px solid; */
+    width:70vw;
+    /* margin-left: 5vw; */
+}
+
+.inputboxes{
+    padding-left:3vw;
+}
+.searchbutton{
+    background-color: #fb792b;
+    height:4.5vh;
+    width:9vw;
+    border-style: none;
+    border-radius: 4px;
+    color:white;
+    font-weight: bold;
+}
+.trybutton{
+    background-color: #01bb0a;
+    height:4.5vh;
+    border-style: none;
+    border-radius: 4px;
+    color:white;
+    width:15vw ;
+}
+.pnr{
+    width:21vw;
+}
+.fromli{
+    height:18% ;
+}
+.dateli{
+    height:18%;
+}
+.bookticket{
+    color:#213d77;font-size: 40px;font-weight: bold;
+    width:50%;
+    text-align: center;
+}
+.servicestagline{
+    display: flex;
+    margin:auto;
+    max-width:80vw;
+    justify-content: center;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.holidays{
+    display: flex;
+    margin:auto;
+    max-width:80vw;
+    justify-content: center;
+    font-weight: bold;
+    font-size:xx-large;
+    margin-top: 7vh;
+}
+.services{
+    display:flex;
+    max-width:65vw;
+    margin:auto;
+    flex-wrap: wrap;
+    /* border:2px solid black; */
+    row-gap:2vh ;
+    column-gap: 5vw;
+    font-weight: bold;
+
+}
+.plans{
+    display: flex;
+    margin:auto;
+    column-gap: 2vw;
+    max-width: 72vw;
+    flex-wrap: wrap;
+    row-gap: 5vh;;
+}
+.svv{
+    width:9vw;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+@media only screen and (max-width:1440px){
+    /* .bookticket{
+        font-size: 20px;
+    } */
+    .sidelogos{
+        padding-left: 1vw;
+    }
+    .bookticket{
+        width:24%;
+        text-align: left;
+    }
+    .formul{
+        gap:0px;
+    }
+}
+
+@media only screen and (max-width:710px){
+    .servicestagline{
+        font-size:120%;
+    }
+}
+/* .cardimg img{
+    max-width: 100%;
+    height: auto;
+} */
+.card{
+    border:1px solid grey;
+    width:22vw;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:1000px){
+    .plans{
+        flex-direction: column;
+
+    }
+    .card{
+        width:80vw;
+    }
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .form1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* width: fit-content; */
+        height:fit-content;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .form{
+        width:100%;
+    }
+    .tagline{
+        padding:0;
+    }
+    .formul{
+        width:100%;
+    }
+    .adjust{
+        width:20vw;
+    }
+    .adjustt{
+        height:5vh;
+        width:28vw;
+    }
+    .sidelogos{
+        display: none;
+    }
+    .pnr{
+        width:97%;
+    }
+    .inputleft{
+        width:95%;
+    }
+    .inputright{
+        width:90%;
+    }
+    .fromli{
+        height:18%
+    }
+    .bookticket{
+        width: 80%;
+    }
+}
+    @media only screen and (max-width:480px){
+        .form1{
+            background-image:none;
+        }
+    
+}
+
