@@ -211,6 +211,9 @@ body{
     max-width: 100%;
     height: auto;
 } */
+.cardtext{
+    margin-left: 15px;
+}
 .card{
     border:1px solid grey;
     width:22vw;
