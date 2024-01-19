@@ -252,7 +252,6 @@ body{
 @media only screen and (max-width:1000px){
     .plans{
         flex-direction: column;
-
     }
     .card{
         width:80vw;
