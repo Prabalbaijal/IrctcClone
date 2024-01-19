@@ -242,6 +242,7 @@ body{
 }
 .handles img{
     height:6vh;
+    width:2vw;
     z-index:50;
 }
 .handles ul{
@@ -259,6 +260,12 @@ body{
     .services{
         flex-direction: column;
         align-items: center;
+    }
+    .handles{
+        flex-direction: column;
+    }
+    .handles img{
+        width:9vw;
     }
 }
 .pwd{
