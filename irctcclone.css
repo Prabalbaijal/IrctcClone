@@ -79,7 +79,7 @@ body{
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    height:1000px;
+    height:3000px;
     /* padding:4px; */
     position: relative;
     background-color: #F7F7F7;
@@ -220,6 +220,33 @@ body{
     background-color: white;
     display:flex;
     flex-direction: column;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+.rdmore{
+    margin-bottom: 3vh;
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+}
+.handles{
+    display: flex;
+    background-color: #9b4b90;
+    max-width:98vw;
+    column-gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    height:10vh;
+    border-radius: 10px;
+}
+.handles img{
+    height:6vh;
+    z-index:50;
+}
+.handles ul{
+    display:flex;
+    column-gap: 1vw;
 }
 @media only screen and (max-width:1000px){
     .plans{
@@ -234,8 +261,11 @@ body{
         align-items: center;
     }
 }
-
-@media only screen and (max-width:900px){
+.pwd{
+    width:20vw;
+    padding-left:2vw ;
+}
+@media only screen and (max-width:920px){
     .form1{
         flex-direction: column-reverse;
         justify-content: center;
@@ -243,6 +273,9 @@ body{
         height:fit-content;
         background-repeat: repeat;
         background-size: cover;
+    }
+    .pwd{
+        width:90vw;
     }
     .form{
         width:100%;
@@ -286,3 +319,10 @@ body{
     
 }
 
+.ir{
+    font-size:325%;
+    font-weight: bold;
+    width:34vw;
+    display: flex;
+    flex-wrap: wrap;
+}
