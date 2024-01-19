@@ -79,7 +79,7 @@ body{
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    height:3000px;
+    height:400vh;
     /* padding:4px; */
     position: relative;
     background-color: #F7F7F7;
@@ -250,6 +250,9 @@ body{
     column-gap: 1vw;
 }
 @media only screen and (max-width:1000px){
+    .container{
+        height:800vh;
+    }
     .plans{
         flex-direction: column;
     }
