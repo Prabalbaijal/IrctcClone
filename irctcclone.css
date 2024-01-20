@@ -242,7 +242,7 @@ body{
 }
 .handles img{
     height:6vh;
-    width:3vw;
+    width:4vw;
     z-index:50;
 }
 .handles ul{
@@ -274,7 +274,7 @@ body{
     width:20vw;
     padding-left:2vw ;
 }
-@media only screen and (max-width:920px){
+@media only screen and (max-width:925px){
     .form1{
         flex-direction: column-reverse;
         justify-content: center;
