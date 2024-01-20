@@ -274,7 +274,7 @@ body{
     width:20vw;
     padding-left:2vw ;
 }
-@media only screen and (max-width:923px){
+@media only screen and (max-width:924px){
     .form1{
         flex-direction: column-reverse;
         justify-content: center;
